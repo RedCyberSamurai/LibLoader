@@ -1,4 +1,4 @@
-# LibLoader
+# LibLoader (C++ Windows)
 
 ## Getting started
 + Add __LibLoader.h__ to your project and here we go...
