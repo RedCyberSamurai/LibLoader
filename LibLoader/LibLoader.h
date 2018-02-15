@@ -25,7 +25,9 @@ public:
 			return;
 		}
 	}
-	~LibLoader() {}
+	~LibLoader() {
+		FreeLibrary(this->hDLL);
+	}
 
 	T *GetModule() {
 		return this->module;
